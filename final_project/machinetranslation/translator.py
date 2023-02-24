@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-apikey = os.environ['mJ9pLYNGnYblQN5oU_FtsL-e7saapxpzrsbzV67__uvN']
+apikey = os.environ['{apikey}']
 url = os.environ['https://api.us-south.language-translator.watson.cloud.ibm.com/instances/2e7fc3ee-20e8-4418-9d85-32e12078884f']
 
 #Instantiate IBM Watson Language Translator
